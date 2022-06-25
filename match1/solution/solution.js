@@ -1,7 +1,6 @@
 /**
  * This a solution in JavaScript for https://match.yuanrenxue.com/match/1
  */
-import {get } from 'node:http';
 import https from 'node:https'
 
 // generate window.b
@@ -61,4 +60,4 @@ async function getTotalData(totalPage) {
     console.log(`Avarage price: ${price/count}`);
 }
 
-getTotalData(5);
+getTotalData(5); // 4700
