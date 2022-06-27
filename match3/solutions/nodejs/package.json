@@ -1,0 +1,19 @@
+{
+    "name": "match3",
+    "version": "1.0.0",
+    "description": "* 题目地址：https://match.yuanrenxue.com/match/3",
+    "main": "jsfuck.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "fetch-headers": "^3.0.1",
+        "node-fetch": "^3.2.6",
+        "request": "^2.88.2"
+    }
+}
