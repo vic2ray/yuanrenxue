@@ -69,7 +69,11 @@ reg.exec(str) // ['a', index: 5]
 reg.exec(str) // null
 ```
 
+此外，`matchAll()`方法返回一个包含所有匹配正则表达式的结果及分组捕获组的迭代器，配合`for...of`, `[...]`, 或者`Array.from()`可以更方便实现功能。
+
+
 参考阅读：[JavaScript exec() 方法](https://www.w3school.com.cn/jsref/jsref_exec_regexp.asp)
+[String.prototype.matchAll()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll)
 
 ## 隐类排除
 

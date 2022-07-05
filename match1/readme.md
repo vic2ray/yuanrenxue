@@ -54,7 +54,7 @@ setInterval(function () {
 <script>function w(){window={}}function dd(){document={}}</script>
 ```
 
-即将`window`和`document`对象清空。这里留下疑点1：为什么要防止这两个内置函数被篡改？
+即将`window`和`document`对象清空。而实际上，window对象只有`get`没有`set`方法，且`configurable`属性为false，因此为只读对象。这里留下疑点1：为什么要防止这两个内置函数被篡改？
 
 * /static/match/safety/uzt.js
 

@@ -1,5 +1,4 @@
 import https from 'node:https'
-import { resolve } from 'node:path'
 
 
 const headers = {
